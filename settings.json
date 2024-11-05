@@ -1,0 +1,154 @@
+{
+    // General Editor Settings
+    "editor.lineNumbers": "off",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [120],
+    "editor.fontSize": 20,
+    "editor.fontFamily": "GeistMono Nerd Font Mono Propo Thin",
+    "scm.inputFontFamily": "GeistMono Nerd Font Mono Thin",
+    "terminal.integrated.fontFamily": "GeistMono Nerd Font Mono Thin",
+    "chat.editor.fontFamily": "GeistMono Nerd Font Mono Thin",
+    "debug.console.fontFamily": "GeistMono Nerd Font Mono Thin",
+    "editor.inlayHints.fontFamily": "GeistMono Nerd Font Mono Thin",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.lineHeight": 32,
+    "window.newWindowDimensions": "maximized",
+    "window.nativeFullScreen": true,
+
+    // Visual Customizations
+    "workbench.colorTheme": "Gruvbox Glass",
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.colorDecorators": false,
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+
+    // Rainbow Indents
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "rgba(255, 105, 97, 0.7)",
+        "rgba(255, 179, 71, 0.7)",
+        "rgba(255, 255, 77, 0.7)",
+        "rgba(106, 255, 77, 0.7)",
+        "rgba(77, 255, 255, 0.7)",
+        "rgba(77, 179, 255, 0.7)",
+        "rgba(179, 77, 255, 0.7)",
+        "rgba(255, 77, 255, 0.7)",
+        "rgba(255, 77, 179, 0.7)",
+        "rgba(179, 255, 77, 0.7)"
+    ],
+
+    // Custom CSS/JS
+    "vscode_custom_css.imports": [
+        "file:///Users/d/vs_code/custom_vscode.css",
+        "file:///Users/d/vs_code/custom_vscode.js"
+    ],
+
+    // Go and Bash-specific Settings
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "cmd": "golines ${file} -w",
+                "match": "\\.go$"
+            }
+        ]
+    },
+    "go.formatTool": "gofumpt",
+    "go.useLanguageServer": true,
+    "go.toolsManagement.autoUpdate": true,
+    "gopls": {
+        "buildFlags": ["-tags", "integration"],
+        "completionDocumentation": true,
+        "formatting.gofumpt": true,
+        "staticcheck": true,
+        "ui.completion.usePlaceholders": true,
+        "verboseOutput": false,
+        "ui.semanticTokens": true
+    },
+
+    // Formatting and File Management
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    // Font Ligatures
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+
+    // Indentation
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+
+    // Better Comments
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF0000"
+        },
+        {
+            "tag": "?",
+            "color": "#FFFF00"
+        },
+        {
+            "tag": "//",
+            "color": "#505168",
+            "strikethrough": true
+        },
+        {
+            "tag": "todo",
+            "color": "#FFA500"
+        },
+        {
+            "tag": "*",
+            "color": "#98C379"
+        },
+        {
+            "tag": "steps",
+            "color": "#fee440"
+        },
+        {
+            "tag": "->",
+            "color": "#a7c957",
+            "bold": true
+        },
+        {
+            "tag": "<-",
+            "color": "#FF5370",
+            "bold": true
+        },
+        {
+            "tag": "||",
+            "color": "#C3E88D",
+            "bold": true
+        },
+        {
+            "tag": "()",
+            "color": "#FFCB6B",
+            "italic": true
+        },
+        {
+            "tag": "[]",
+            "color": "#89DDFF",
+            "italic": true
+        },
+        {
+            "tag": "#",
+            "color": "#F07178",
+            "underline": true
+        }
+    ]
+}
